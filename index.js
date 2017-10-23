@@ -35,7 +35,10 @@
 
 
     // 2. Array.prototype.every() // is everyone 19 or older?
-      // will check for every single one in the array
+      // will check if EVERY single one in the array is 
+        const areAll = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+        console.log({areAll});
+
      
 
     // 3. Array.prototype.find()
