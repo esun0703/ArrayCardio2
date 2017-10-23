@@ -15,10 +15,18 @@
       { text: 'Ramen is my fav food ever', id: 123523 },
       { text: 'Nice Nice Nice!', id: 542328 }
     ];
-
+    
     // Some and Every Checks
     // 1. Array.prototype.some() // is at least one person 19 or older?
       // will check if at least one
+      const isAdult = people.some(person => {
+        const currentYear = (new Date()).getFullYear()
+        if(currentYear - person.year >= 19 ){
+          return true;
+        }
+
+      });
+      console.log({isAdult});
      
 
 
