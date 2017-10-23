@@ -1,3 +1,4 @@
+  require ('console.table');  
   // ## Array Cardio Day 2
 
     const people = [
@@ -16,14 +17,21 @@
     ];
 
     // Some and Every Checks
-    // Array.prototype.some() // is at least one person 19 or older?
-    // Array.prototype.every() // is everyone 19 or older?
+    // 1. Array.prototype.some() // is at least one person 19 or older?
+      // will check if at least one
+     
 
-    // Array.prototype.find()
-    // Find is like filter, but instead returns just the one you are looking for
-    // find the comment with the ID of 823423
 
-    // Array.prototype.findIndex()
-    // Find the comment with this ID
-    // delete the comment with the ID of 823423
+    // 2. Array.prototype.every() // is everyone 19 or older?
+      // will check for every single one in the array
+     
+
+    // 3. Array.prototype.find()
+      // Find is like filter, but instead returns just the one you are looking for
+      // find the comment with the ID of 823423
+      
+
+    // 4. Array.prototype.findIndex()
+      // A. Find the comment with this ID
+      // B. delete the comment with the ID of 823423
 
